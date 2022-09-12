@@ -151,7 +151,7 @@ public class Basics {
         temp = to_split.split(" ");
 
         for (int i = 0; i < 7; i++){
-            ret.append(temp[i]);
+            ret.append(temp[i].charAt(0));
         }
         return ret.toString();
     }
